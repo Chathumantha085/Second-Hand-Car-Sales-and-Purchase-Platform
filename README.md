@@ -12,3 +12,30 @@ The Second-Hand Car Rental & Purchasing Platform enables users to browse, rent, 
 •	Vehicle Listing Management - Allows administrators/sellers to add, view, update, and remove vehicle listings.
 •	Vehicle Purchase Management - Manages purchase requests, approvals, and purchase records.
 •	Rental Booking Management - Handles rental bookings, availability checks, and booking cancellations.
+
+
+
+1.3 Definitions and Acronyms
+
+#Term#	            #Definition#
+SRS	          Software Requirements Specification
+OOP	          Object-Oriented Programming
+CRUD       	  Create, Read, Update, Delete
+JSP	          JavaServer Pages
+UI	          User Interface
+Admin	        Administrator - manages vehicles and platform settings
+User	        Registered customer who can rent or purchase vehicles
+TXT File	    Plain text file used as data storage (.txt)
+Spring Boot	  Java framework for building web applications
+
+1.4 Technologies Used
+•	Backend: Java, JSP (JavaServer Pages), Servlets (javax.servlet.HttpServlet)
+•	Frontend: HTML, CSS, Bootstrap 5, JavaScript
+•	Web Container: Apache Tomcat 9 (runs inside IntelliJ IDEA)
+•	Data Storage: Text files (.txt) - users.txt, vehicles.txt, purchases.txt, rentals.txt
+•	IDE: IntelliJ IDEA (Ultimate recommended for JSP/Servlet support)
+•	Build Tool: Maven (pom.xml) with jakarta.servlet-api dependency
+•	Version Control: Git & GitHub
+
+
+
