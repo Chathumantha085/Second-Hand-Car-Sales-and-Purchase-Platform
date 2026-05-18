@@ -14,7 +14,7 @@ public abstract class RentalBooking {
     private String vehicleId;
     private LocalDate startDate;
     private LocalDate endDate;
-    private double totalCost;
+    private double ;
     private String status; // ACTIVE, COMPLETED, CANCELLED
     private String rentalType; // DAILY, WEEKLY
 
