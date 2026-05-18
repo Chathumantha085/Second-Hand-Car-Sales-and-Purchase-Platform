@@ -67,8 +67,7 @@ public abstract class RentalBooking {
         this.startDate = startDate;
     }
 
-    public LocalDate getEndDate() {
-        return endDate;
+    
     }
 
     public void setEndDate(LocalDate endDate) {
