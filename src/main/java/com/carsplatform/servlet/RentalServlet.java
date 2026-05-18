@@ -20,7 +20,7 @@ public class RentalServlet extends HttpServlet {
     private RentalService rentalService = new RentalService();
     private VehicleService vehicleService = new VehicleService();
 
-    @Override
+    @Override                      //override section
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         String action = request.getParameter("action");
@@ -29,7 +29,7 @@ public class RentalServlet extends HttpServlet {
             action = "list";
         }
 
-        switch (action) {
+        switch (action) {              //status
             case "list":
                 listRentals(request, response);
                 break;
