@@ -146,7 +146,7 @@ public abstract class RentalBooking {
         }
     }
 
-    @Override
+    @Override                 //override section
     public String toString() {
         return "RentalBooking{" +
                 "rentalId='" + rentalId + '\'' +
