@@ -1,0 +1,3 @@
+U1001|Admin User|admin@carplatform.com|admin123|ADMIN|0771234567
+U1002|John Perera|john@email.com|user123|USER|0712345678
+U1003|Chathumantha Wickramaarachchi|chathumantha085@gmail.com|Car@123|USER|0757210498
